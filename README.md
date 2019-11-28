@@ -16,7 +16,10 @@ On successfully checking out. visitor recieves an email regarding the meeting wi
 2. open command prompt and navigate to the folder where repository is present
 3. Execute ```python -m pip install -r requirements.txt```
 >Caution::Install python3.6 and check "add path to path variables" during installation. Ensure pip is installed on your system.
-	
+
+# Prerequisites
+1. [pip](https://pip.pypa.io/en/stable/) and python should be installed on your environment
+
 # Technology Stack:
 1. Python
 2. Tkinter for GUI
@@ -28,30 +31,30 @@ On successfully checking out. visitor recieves an email regarding the meeting wi
 
 # Images of UI:
 
-1. Start Screen of the Application where Visitor can check in.
+1. **Start Screen of the Application where Visitor can check in.**
 
 ![image1](https://github.com/aman3197/Innovaccer-EntryManagementSoftware/blob/master/Images/image1.png)
 
-2. Check-Out screen where visitor can Check-out.
+2. **Check-Out screen where visitor can Check-out.**
 
 ![image2](https://github.com/aman3197/Innovaccer-EntryManagementSoftware/blob/master/Images/image2.png)
 
-3. In this format 	Information is store in Database.
+3. **In this format 	Information is store in Database.**
 
 ![image13](https://github.com/aman3197/Innovaccer-EntryManagementSoftware/blob/master/Images/image13.png)
 
-4. Email recieved by the visitor when meeting is over
-
-![image14](https://github.com/aman3197/Innovaccer-EntryManagementSoftware/blob/master/Images/image14.jpg)
-
-
-
-
-
-5. SMS recieved by the host when visitor Check-in
-
-
+4. **Email recieved by the visitor when meeting is over.**
 
 ![image15](https://github.com/aman3197/Innovaccer-EntryManagementSoftware/blob/master/Images/image15.jpg)
+
+
+
+
+
+5. **SMS recieved by the host when visitor Check-in.**
+
+
+
+![image14](https://github.com/aman3197/Innovaccer-EntryManagementSoftware/blob/master/Images/image14.jpg)
 
 
