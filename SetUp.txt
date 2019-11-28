@@ -1,0 +1,38 @@
+﻿**It is assumed that python and Mysql is installed your Laptop.
+
+
+ 
+1) Install Mysql Connector:
+   Go to the given link and then install it, according to your Laptop OS.
+
+
+   - https://dev.mysql.com/downloads/connector/python/
+
+
+2) Run the create_database.py file, to create the database
+
+
+3) Allow Access For less secure apps in your Gmail account here.
+
+   https://myaccount.google.com/lesssecureapps
+
+4) Get registered on Twilio site and get number, account_sid and auth_token to use the messaging service.
+   Go to the given link and then get registered yourself
+   -https://www.twilio.com/try-twilio
+
+
+5) Enter the Details of your twilio, MySQL and Gmail Account(in Config.py).
+
+
+7) Run main.py(main python Script)
+
+
+******** what Files Do: **********
+1) main.py ->> Main Python script.
+2) create_database.py ->> For creating the database.
+3) Home_page.py ->> Creating the front-end which shows necessary details
+4) SMS.py ->> Send sms to the host
+5) Visitor_Email.py ->>Sends an Email to the visitor after meeting is over 
+6) Host_Email.py ->> Sends an Email to the host after visitor check-in        
+7) Check_out_Page.py ->>creating the front-end for check_out window        
+8) Check_in.py ->> Check the details entered are correct or not. If correct then trigger sms and      email to the host
