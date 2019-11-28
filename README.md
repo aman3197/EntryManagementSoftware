@@ -39,9 +39,9 @@ On successfully checking out. visitor recieves an email regarding the meeting wi
 
 
 
-![image14](https://github.com/aman3197/Innovaccer-EntryManagementSoftware/blob/master/Images/image14.png)
+![image14](https://github.com/aman3197/Innovaccer-EntryManagementSoftware/blob/master/Images/image14.jpg)
 
 
-![image15](https://github.com/aman3197/Innovaccer-EntryManagementSoftware/blob/master/Images/image15.png)
+![image15](https://github.com/aman3197/Innovaccer-EntryManagementSoftware/blob/master/Images/image15.jpg)
 
 
