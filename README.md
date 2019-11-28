@@ -32,4 +32,4 @@ On successfully checking out. visitor recieves an email regarding the meeting wi
 
 
 
-![image2](https://github.com/aman3197/Innovaccer-EntryManagementSoftware/blob/master/Images/image2.png)
+
