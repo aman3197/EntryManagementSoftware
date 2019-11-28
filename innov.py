@@ -21,9 +21,9 @@ def popup2():
 def popup3():
     messagebox.showinfo("Checked-Out", "You have been successfully checked out!")
 
-connection = mysql.connector.connect(host='localhost',
-                                         user='root',
-                                         password='8410',database='management')
+connection = mysql.connector.connect(host='',
+                                         user='',
+                                         password='',database='management')
 cursor = connection.cursor()
 
 def vemail(mail):
@@ -56,7 +56,7 @@ def vemail(mail):
 
                     em.starttls()
 
-                    em.login("innopattu1031@gmail.com", "undertaker@123")
+                    em.login("", "")
 
                     msg = "Details of the meeting is\n"
 
@@ -95,7 +95,7 @@ def vemail(mail):
                         chkout = str(i[0])
 
                     msg+="your name-->"+vist_name+"\n"+"your number-->"+vist_number+"\ncheck-in time-->"+chkin+"\ncheck out time"+chkout+"\nhost name-->"+hst_name+"\nAddress is 2nd and 9th Floor, Tower 3, Candor Techspace, Rajat Vihar, Block B, Industrial Area, Sector 62, Noida, Uttar Pradesh 201309"
-                    em.sendmail("innopattu1031@gmail.com",mail1, msg)
+                    em.sendmail("",mail1, msg)
 
                     em.quit()
                     popup3()
@@ -107,15 +107,15 @@ def vemail(mail):
 
 def sms(vis_name,vis_num,host_num):
     # Your Account SID from twilio.com/console
-    account_sid = "AC72fc344d899e420f43dac35b73125c02"
+    account_sid = ""
     # Your Auth Token from twilio.com/console
-    auth_token = "9f5a20b87b72810ee26db8a43a97335e"
+    auth_token = ""
 
     client = Client(account_sid, auth_token)
         #print(host_num)
     message = client.messages.create(
         to= str(host_num),
-        from_="+12056062308",
+        from_="",
         body=vis_name+ " is coming to meet you and visitor's Contact Number is " + vis_num)
 
 def hemail(Name,host_email,NUMBER):
@@ -123,10 +123,10 @@ def hemail(Name,host_email,NUMBER):
 
         em.starttls()
 
-        em.login("innopattu1031@gmail.com" , "undertaker@123")
+        em.login("" , "")
 
         msg = Name+" is coming to meet you and\nhis contact number is "+NUMBER
-        em.sendmail("innopattu1031@gmail.com", host_email, msg)
+        em.sendmail("", host_email, msg)
 
         em.quit()
 def ch(e1,e2,e3,e4,e5,e6):
