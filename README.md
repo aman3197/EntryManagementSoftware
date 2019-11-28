@@ -1,11 +1,13 @@
-## Entry management System
+# Entry management System
 
 # Problem Statement:
 Given the visitors that we have in office and outside, there is a need to for an entry management software,We need an application, which can capture the name, email address, phone no of the visitor and same information also needs to be captured for the host on the front end. At the back end, once the user enters the information in the form, the backend should store all of the information with time stamp of the entry.
 
 # Workflow:
 On starting the program a Graphical User Interface window is opened which asks the Visitor to fill the details like Name,email id,phone number and host also need need to enter the same details.
-On clicking the Check-in button, information of the visitor and host is stored in the database from which we can fetch the data whenever  required and on clcking the check in button also trigger an Email and an SMS to the host informing him of the details of the visitor. and now we can click on go to check out  this button bring us to the new window which is asking to enter the visitor Email-id and if wrong email id is provided it shows error which i have shown in video. once the visitor provide the correct email it is successfully check out. and check out button also trigger an Email to the visitor containing the details of the meeting. 
+On clicking the "Check-in" button, information of the visitor and host is stored in the database from which we can fetch the data whenever  required and clicking the "Check-in" button also trigger an Email and an SMS to the host informing him of the details of the visitor.
+On clicking the "Go to check-out" button a new window is opened which asks the visitor to enter the Email-id. The information from the database is retrieved and the email-id entered is checked in the database. If the email-id entered matches with that in database, Visitor successfully checks out. And, if not matched then a new pop-up window is opened which tells the visitor to "Check-in first" if the email-id entered is correct and otherwise asks the visitor to provide correct email-id.
+On successfully checking out. visitor recieves an email regarding the meeting with the host. The email comprises of information like Name of the host,meeting hours(check-in time and check-out time),Name of the visitor,Phone no. of the visitor and Location of the meeting.
 
 # Approach:
 This application uses Tkinter for creating the graphical user interface(GUI). Tkinter is the GUI programming toolkit for python. in order to use it in your program you have to import it using statement ( from tkinter import * ). i have used MySQL for database.
