@@ -28,24 +28,29 @@ On successfully checking out. visitor recieves an email regarding the meeting wi
 
 # Images of UI:
 
-Start Screen of the Application where Visitor can check in.
+1.Start Screen of the Application where Visitor can check in.
 
 ![image1](https://github.com/aman3197/Innovaccer-EntryManagementSoftware/blob/master/Images/image1.png)
 
-Check-Out screen where visitor can Check-out.
+2.Check-Out screen where visitor can Check-out.
 
 ![image2](https://github.com/aman3197/Innovaccer-EntryManagementSoftware/blob/master/Images/image2.png)
 
-In this format 	Information is store in Database.
+3.In this format 	Information is store in Database.
 
 ![image13](https://github.com/aman3197/Innovaccer-EntryManagementSoftware/blob/master/Images/image13.png)
 
-Email recieved by the visitor when meeting is over
+4.Email recieved by the visitor when meeting is over
 
 ![image14](https://github.com/aman3197/Innovaccer-EntryManagementSoftware/blob/master/Images/image14.jpg)
 
 
-SMS recieved by the host when visitor Check-in
+
+
+
+5.SMS recieved by the host when visitor Check-in
+
+
 
 ![image15](https://github.com/aman3197/Innovaccer-EntryManagementSoftware/blob/master/Images/image15.jpg)
 
