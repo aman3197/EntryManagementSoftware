@@ -1,7 +1,5 @@
 # Entry management System
 
-# Demo video:
-
 # Problem Statement:
 Given the visitors that we have in office and outside, there is a need to for an entry management software,We need an application, which can capture the name, email address, phone no of the visitor and same information also needs to be captured for the host on the front end. At the back end, once the user enters the information in the form, the backend should store all of the information with time stamp of the entry.
 
@@ -18,7 +16,8 @@ On successfully checking out. visitor recieves an email regarding the meeting wi
 >Caution::Install python3.6 and check "add path to path variables" during installation. Ensure pip is installed on your system.
 
 # Prerequisites
-1. [pip](https://pip.pypa.io/en/stable/) and python should be installed on your environment
+1. Before Running the program Read SetUp.txt file
+2. [pip](https://pip.pypa.io/en/stable/) and python should be installed on your environment
 
 # Technology Stack:
 1. Python

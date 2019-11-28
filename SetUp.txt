@@ -1,5 +1,6 @@
-﻿**It is assumed that python and Mysql is installed your Laptop.
+﻿**It is assumed that Mysql is installed your Laptop.
 
+**All Python files are in EntryManagement
 
  
 1) Install Mysql Connector:
